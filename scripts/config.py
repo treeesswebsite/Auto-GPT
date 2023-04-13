@@ -43,7 +43,7 @@ class Config(metaclass=Singleton):
         self.fast_token_limit = int(os.getenv("FAST_TOKEN_LIMIT", 4000))
         self.smart_token_limit = int(os.getenv("SMART_TOKEN_LIMIT", 8000))
 
-        self.openai_api_key = os.getenv("OPENAI_API_KEY")
+        self.openai_api_key = os.getenv("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")
         self.temperature = int(os.getenv("TEMPERATURE", "1"))
         self.use_azure = False
         self.use_azure = os.getenv("USE_AZURE") == 'True'
